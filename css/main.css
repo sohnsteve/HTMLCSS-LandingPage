@@ -105,8 +105,7 @@ section {
     height: 30px;
     width: 330px;
     padding: 6px 12px;
-    border-width: 1px;
-    border-color: #a0a0a0;
+    border: 1px solid #a0a0a0;
 }
 
 .search-button {
@@ -114,12 +113,12 @@ section {
     color: #ffffff;
     height: 30px;
     width: 100px;
-    border-width: 0;
+    border: 0;
     padding: 0;
 }
 
 .nav-list {
-    padding: 0;
+    padding-left: 0;
     width: 575px;
     margin-top: 10px;
 }
