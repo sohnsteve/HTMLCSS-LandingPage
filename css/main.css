@@ -309,11 +309,12 @@ section {
 }
 
 footer {
+    display: flex;
     flex-wrap: wrap;
     position: relative;
     z-index: 0;
     min-height: 330px;
-    background-color: black;
+    background-color: #000000;
 }
 
 footer:after {
@@ -330,10 +331,7 @@ footer:after {
 
 .lists {
     flex: 0 0 75%;
-    left: 15px;
-    right: 15px;
-    top: 40px;
-    bottom: 40px;
+    padding: 40px 15px;
 }
 
 .link-header {
@@ -344,7 +342,7 @@ footer:after {
 }
 
 footer a {
-    color: white;
+    color: #ffffff;
     text-transform: uppercase;
     font-size: 12px;
     padding: 0 0 4px;
@@ -362,8 +360,8 @@ footer a:hover {
     display: block;
     width: 23px;
     height: 23px;
-    background-size: 23px;
-    background-position: 23px center;
+    background-size: 23px 23px;
+    background-position: center;
 }
 
 .twitter {
